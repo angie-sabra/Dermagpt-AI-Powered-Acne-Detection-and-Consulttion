@@ -1,7 +1,7 @@
 // scripts/acne-detection-service.js
 
 
-const ACNE_DETECTION_API_URL = "https://8cc9-35-187-249-145.ngrok-free.app/acne";
+const ACNE_DETECTION_API_URL = "https://5c6f-34-143-170-251.ngrok-free.app/acne";
 
 export async function detectAcne(imageFile) {
   const formData = new FormData();

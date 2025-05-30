@@ -51,7 +51,7 @@ export function captureFrame(videoEl, quality = 0.8) {
 
 // 3. Analysis Function (Matches your Flask endpoint)
 export async function analyzeLive(blob) {
-  const LIVE_API = "https://8cc9-35-187-249-145.ngrok-free.app/acne/live"; // Update this!
+  const LIVE_API = "https://53ab-34-143-170-251.ngrok-free.app/acne/live"; // Update this!
   try {
     const formData = new FormData();
     formData.append('image', blob, 'capture.jpg');

@@ -1,7 +1,7 @@
 // scripts/phi3-service.js
 
 // ←– Change to match your actual ngrok domain
-export const PHI3_API_URL = "https://8cc9-35-187-249-145.ngrok-free.app/analyze";
+export const PHI3_API_URL = "https://53ab-34-143-170-251.ngrok-free.app/analyze";
 
 export async function analyzeWithPhi3(imageFile) {
   const formData = new FormData();

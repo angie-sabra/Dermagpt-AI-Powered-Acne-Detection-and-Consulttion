@@ -35,7 +35,8 @@ startLiveBtn: document.getElementById('start-live-btn'),
   liveResultsContainer: document.getElementById('live-results-container'),
 
 retakeLiveBtn: document.getElementById('retake-live-btn'),
-
+ livePhiAnalysis: document.getElementById("live-phi-analysis"),
+  phiAnalysisOutput: document.getElementById("phi-analysis-output"),
   // Common
   loadingIndicator:  document.getElementById("loading-indicator"),
   helpBtn:           document.querySelector(".help-btn"),
